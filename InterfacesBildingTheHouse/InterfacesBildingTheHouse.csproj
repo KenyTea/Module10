@@ -47,6 +47,7 @@
     <Compile Include="Classes\Door.cs" />
     <Compile Include="Classes\House.cs" />
     <Compile Include="Classes\Roof.cs" />
+    <Compile Include="Classes\Stroika.cs" />
     <Compile Include="Classes\Team.cs" />
     <Compile Include="Classes\TeamLeader.cs" />
     <Compile Include="Classes\Wall.cs" />

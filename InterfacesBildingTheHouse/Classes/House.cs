@@ -9,13 +9,13 @@ namespace InterfacesBildingTheHouse.Classes
 {
     class House
     {
-        //public List<Basement> Wasements { get; set; }
-        //public List<Wall> Walls { get; set; }
-        //public List<Door> Doors { get; set; }
-        //public List<Roof> Roofs { get; set; }
-        //public List<Window> Windows { get; set; }
+        public List<Basement> Wasements { get; set; }
+        public List<Wall> Walls { get; set; }
+        public List<Door> Doors { get; set; }
+        public List<Roof> Roofs { get; set; }
+        public List<Window> Windows { get; set; }
 
-        public List<IPart> PartsHouse { get; set; }
+        public List<IPart> PartsHouse = new List<IPart>();
         public void CreatePlanHouse()
         {
             Random rand = new Random();

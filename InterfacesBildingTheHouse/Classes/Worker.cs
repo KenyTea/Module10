@@ -14,8 +14,8 @@ namespace InterfacesBildingTheHouse.Classes
         string IWorker.Name { get; set; }
        
         double IWorker.Salery { get; set; }
-        
 
+        public List<IPart> jobs { get; set; } = new List<IPart>();
       
     }
 }
