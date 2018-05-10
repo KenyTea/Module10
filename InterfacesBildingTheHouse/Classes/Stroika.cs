@@ -14,7 +14,12 @@ namespace InterfacesBildingTheHouse.Classes
             house.CreatePlanHouse();
 
             Team team = new Team();
-            team.WorkJ(ref house.PartsHouse);
+            team.GenerateWorkwer();
+
+            while (house.PartsHouse.Count(c => c.StartWork == null) > 0)
+            {
+                team.WorkJ(ref house.PartsHouse);
+            }
         }
     }
 }

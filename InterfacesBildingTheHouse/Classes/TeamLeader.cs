@@ -16,5 +16,9 @@ namespace InterfacesBildingTheHouse.Classes
 
         double IWorker.Salery { get; set; }
 
+        public void PrintReport(List<IPart> parts)
+        {
+            Console.WriteLine(" ");
+        }
     }
 }

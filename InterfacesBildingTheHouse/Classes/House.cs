@@ -23,6 +23,7 @@ namespace InterfacesBildingTheHouse.Classes
             {
                 IPart w = new Basement();
                 w.Name = "Basement";
+                w.Priority = 0;
                 PartsHouse.Add(w);
             }
 
@@ -30,6 +31,7 @@ namespace InterfacesBildingTheHouse.Classes
             {
                 IPart w = new Wall();
                 w.Name = "Wall";
+                w.Priority = 1;
                 PartsHouse.Add(w);
             }
 
@@ -37,6 +39,7 @@ namespace InterfacesBildingTheHouse.Classes
             {
                 IPart w = new Door();
                 w.Name = "Door";
+                w.Priority = 3;
                 PartsHouse.Add(w);
             }
 
@@ -44,6 +47,7 @@ namespace InterfacesBildingTheHouse.Classes
             {
                 IPart w = new Roof();
                 w.Name = "Roof";
+                w.Priority = 2;
                 PartsHouse.Add(w);
             }
 
@@ -51,6 +55,7 @@ namespace InterfacesBildingTheHouse.Classes
             {
                 IPart w = new Window();
                 w.Name = "Window";
+                w.Priority = 4;
                 PartsHouse.Add(w);
             }
         }

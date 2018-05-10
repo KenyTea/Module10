@@ -10,7 +10,7 @@ namespace InterfacesBildingTheHouse.Interface
     {
         string Name { get; set; }
 
-
+        int Priority { get; set; }
 
         DateTime StartWork { get; set; }
         DateTime EndWork { get; set; }

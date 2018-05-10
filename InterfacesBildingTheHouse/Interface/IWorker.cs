@@ -11,6 +11,8 @@ namespace InterfacesBildingTheHouse.Interface
         string Name { get; set; }
         double Salery { get; set; }
 
-         bool IsTaem { get; set; } 
+         bool IsTaem { get; set; }
+
+        void PrintReport(List<IPart> parts);
     }
 }
