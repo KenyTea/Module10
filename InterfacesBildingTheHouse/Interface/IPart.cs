@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfacesBildingTheHouse.Interface
 {
-    interface IPart
+    public interface IPart
     {
         string Name { get; set; }
 

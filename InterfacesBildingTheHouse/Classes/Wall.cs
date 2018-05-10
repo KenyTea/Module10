@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InterfacesBildingTheHouse.Classes
 {
-    class Walls : IPart
+    class Wall : IPart
     {
 
         public string Material { get; set; }

@@ -9,5 +9,6 @@ namespace InterfacesBildingTheHouse.Classes
 {
     class Team
     {
+        public List<Worker> Workers { get; set; }
     }
 }
