@@ -9,5 +9,9 @@ namespace InterfacesBildingTheHouse.Classes
 {
     class Door : IPart
     {
+        public string Colour { get; set; }
+        public DateTime EndWork { get; set; }
+        public string Name { get; set; }
+        public DateTime StartWork { get; set; }
     }
 }

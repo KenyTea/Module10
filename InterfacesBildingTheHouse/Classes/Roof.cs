@@ -9,44 +9,10 @@ namespace InterfacesBildingTheHouse.Classes
 {
     class Roof : IPart
     {
-        public string Colour { get; set; }
-        public DateTime EndWork
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string Name
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public DateTime StartWork
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        public string Material { get; set; }
+        public DateTime EndWork { get; set; }
+        public string Name { get; set; }
+        public DateTime StartWork { get; set; }
     }
 }

@@ -11,32 +11,10 @@ namespace InterfacesBildingTheHouse.Classes
     class TeamLeader : IWorker
     {
         public bool IsTaem { get; set; } = true;
-      
 
-        public string Name
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        string IWorker.Name { get; set; }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+        double IWorker.Salery { get; set; }
 
-        public double Salery
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
     }
 }

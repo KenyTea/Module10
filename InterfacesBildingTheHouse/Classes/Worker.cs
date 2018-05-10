@@ -10,13 +10,9 @@ namespace InterfacesBildingTheHouse.Classes
     class Worker : IWorker
     {
         public bool IsTaem { get; set; } = false;
-        
-
+       
         string IWorker.Name { get; set; }
-        
-
-      
-
+       
         double IWorker.Salery { get; set; }
         
 

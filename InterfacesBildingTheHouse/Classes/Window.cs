@@ -11,44 +11,10 @@ namespace InterfacesBildingTheHouse.Classes
     {
         public string Colour { get; set; }
         public string Material { get; set; }
-        public string Manufacter { get; set; }
-        public DateTime EndWork
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
+        public DateTime EndWork { get; set; }  
+        public string Name { get; set; }
+        public DateTime StartWork { get; set; }
+        public string Manufactery { get; set; }
 
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string Name
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public DateTime StartWork
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
     }
 }
