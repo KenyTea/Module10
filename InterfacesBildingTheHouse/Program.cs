@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InterfacesBildingTheHouse.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace InterfacesBildingTheHouse
     {
         static void Main(string[] args)
         {
-
+            Stroika st = new Stroika();
+            st.StartSt();
 
         }
     }
